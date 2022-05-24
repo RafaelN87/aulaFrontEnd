@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +9,37 @@
     <title>jogos</title>
 </head>
 <body>
-    <header class="container-fluid border bg-green p-3">
-        <nav class="nav justify-content-end nav-pills">
-            <img id="foto" src="./img/disney-plus-logo-0.png" alt="melhor pataflorma de streaming" width="150px" height="150px">
+    <header class="container-fluid">
+        <!-- <nav class="nav justify-content-end nav-pills nav-fill">
             <a class="nav-item nav-link" href="index.html">Home</a>
             <a class="nav-item nav-link" href="filmes.html">Filmes</a>
-            <a class="nav-item nav-link" href="séries.html">séries</a>
-            <a class="nav-item nav-link active" href="jogos.html">jogos</a>
-        </nav>
+            <a class="nav-item nav-link" href="series.html">series</a>
+            <a class="nav-item nav-link" href="jogos.html">jogos</a>
+            <img id="foto" src="img/jogos.png" alt="melhor pataflorma de streaming" width="200px" height="200px">
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="color:blue">
+            <img id="foto" src="img/jogos.png" alt="melhor pataflorma de streaming" width="200px" height="200px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="textoNavbar">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="jogos.html" style="color:blue;">jogos<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="series.html" style="color:blue;">series</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="filmes.html" style="color:blue;">filmes</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Texto navbar com um elemento inline
+              </span>
+            </div>
+          </nav>
     </header>
    
 
